@@ -10,7 +10,8 @@ const index = ({photo}) => {
             <Image
                 src={url}
                 width={500}
-                height={500} 
+                height={500}
+                alt={title}
             />
             <Link href="/introduce">
                 <a>Go Back</a>
